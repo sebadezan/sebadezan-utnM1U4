@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const numeros = ["12,15,867,45,23,553,77,10"]
+        let mayor = numeros [0];
+
+        for(let i = 1; i < numeros.length; i++){
+            if (numeros[i] > mayor){
+                mayor = numeros [i];
+            }
+        }
+
+        document.write(`el numero mayor es ${mayor}`);
+    </script>
+</body>
+</html>
